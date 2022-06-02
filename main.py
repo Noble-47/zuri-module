@@ -40,8 +40,8 @@ def play():
 
     else:
         print(
-            f"\n {user_pick} is an Invalid option. \
-         Please select either 'R', 'P' or 'S'"
+            f"{user_pick} is an Invalid option. \
+         \nPlease select either 'R', 'P' or 'S'"
         )
 
 
