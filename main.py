@@ -19,6 +19,12 @@ class RPS:
         else:
             return False
 
+    def __repr__(self):
+        return f"RPS({self.pick}, {self.name})"
+
+    def __str__(self):
+        return f"{self.name}"
+
 
 option_list = ["R", "P", "S"]
 mapping = {
@@ -80,7 +86,7 @@ def game():
     winner = False
     while not winner:
         winner = play()
-
+    print("Existing ....")
 
 if __name__ == "__main__":
     game()
